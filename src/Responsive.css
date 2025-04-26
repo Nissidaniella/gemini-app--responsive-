@@ -32,7 +32,7 @@
 
 
 
-@media (max-width: 830px) {
+@media (max-width: 900px) {
     .who-container {
       flex-direction: column;
       align-items: center;
@@ -55,6 +55,10 @@
       flex-direction: row;
       gap: 20px;
       padding: 3rem;
+    }
+
+    .vision-container{
+        height: 530px;
     }
   
     .target-container {
@@ -239,6 +243,15 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 0.5rem;
+      }
+
+
+      .who-title h1 {
+        font-size: 2.6rem;
+        color: rgb(4, 5, 23);
+        
+        width: 300px;
+        
       }
 
       .vision-box .box  {
